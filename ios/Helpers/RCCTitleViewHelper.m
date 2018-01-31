@@ -192,7 +192,7 @@ navigationController:(UINavigationController*)navigationController
     
     titleLabel.autoresizingMask = self.titleView.autoresizingMask;
     
-    UIFont *titleFont = [UIFont boldSystemFontOfSize:17.f];
+    UIFont *titleFont = [UIFont fontWithName:style[@"navBarTextFontFamily"] size:17.f];
     
     id fontSize = style[@"navBarTitleFontSize"];
     if (fontSize) {
